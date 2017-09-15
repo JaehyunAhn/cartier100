@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#top {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #logo-cartier {
+        height: 22px;
+    }
+    #logo-tf {
+        margin-top: 7px;
+        height: 10px;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    #logo-cartier {
+        height: 25px;
+    }
+    #logo-tf {
+        margin-top: 10px;
+        height: 10px;
+    }
+}

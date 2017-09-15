@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#general {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #a {
+        height: 22px;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    #a {
+        height: 25px;
+    }
+}

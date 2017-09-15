@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'DidotRegular';
+    src: url(../fonts/Didot%20Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SpoqaSans';
+    src: url(../fonts/SpoqaHanSansRegular.ttf) format('truetype');
+}
+
+body {
+    /* 기본 */
+    margin: 0;
+    padding: 0;
+    /* 폰트 */
+    font-family: SpoqaSans;
+    font-size: 1em;
+    color: #000;
+}
+
+.cartier-carpet {
+    /* 배경화면 */
+    background-image: url(../image/meta/tile.jpg);
+    background-repeat: repeat;
+}
