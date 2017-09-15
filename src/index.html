@@ -27,6 +27,8 @@
     <!-- 768px for iPhone & iPad-->
     <link rel="stylesheet" type="text/css" href="./css/meta.css">
     <link rel="stylesheet" type="text/css" href="./css/top.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/page-container.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
 </head>
 <body>
@@ -39,30 +41,35 @@
     </a>
 </div>
 <div id="menu">
-
+    <button class="menu_button" onclick="menuButtonClicked('left')">
+        <img id="button_left" src="./image/menu/arrow_left@2.png">
+    </button>
+    <div id="navigation_text"></div>
+    <button class="menu_button" onclick="menuButtonClicked('right')">
+        <img id="button_right" src="./image/menu/arrow_right@2.png">
+    </button>
 </div>
 <div class="dummy" style="height:60px;"></div>
 <div id="page-container">
-    이것은 테스트
-    <div class="content" index="0" name="탱크 100주년을 기념하며">
+    <div class="content" id="content0" name="탱크 100주년을 기념하며">
        0
     </div>
-    <div class="content" index="1" name="특징">
+    <div class="content" id="content1" name="탱크의 특징">
         1
     </div>
-    <div class="content" index="2" name="리뷰">
+    <div class="content" id="content2" name="탱크 리뷰">
         2
     </div>
-    <div class="content" index="3" name="케이스">
+    <div class="content" id="content3" name="탱크의 케이스">
         3
     </div>
-    <div class="content" index="4" name="앤디워홀">
-
+    <div class="content" id="content4" name="앤디워홀 이야기">
+        4
     </div>
-    <div class="content" index="5" name="탱크를 사랑하는 사람들">
+    <div class="content" id="content5" name="탱크를 사랑하는 사람들">
         5
     </div>
-    <div class="content" index="6" name="컬렉">
+    <div class="content" id="content6" name="컬렉션 보기">
         6
     </div>
 </div>
