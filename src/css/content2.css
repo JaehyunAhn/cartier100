@@ -39,6 +39,8 @@
 }
 .review-item p {
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 
@@ -50,7 +52,6 @@
 }
 
 #content2 .button {
-    width: 10%;
     min-width: 100px;
     height: auto;
     padding: 1%;
@@ -58,7 +59,7 @@
     border: 2px solid white;
     color: white;
     text-align: center;
-    margin-top: 5%;
+    margin: 5% 0 0 0;
 }
 
 #content2 .button:hover {
@@ -75,7 +76,11 @@
         font-size: 1em;
     }
     .review-item p {
+        font-size: 0.9em;
         text-align: justify;
+        height: 60px;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     .review-item {
         text-align: center;
@@ -87,8 +92,20 @@
     #c2-textbar {
         font-size: 1.2em;
     }
+    #content2 .button {
+        width: 10%;
+    }
+    .review-item h2 {
+        text-align: justify;
+    }
+    .review-item h3 {
+        text-align: justify;
+    }
+    .review-item p {
+        text-align: justify;
+    }
 
     .review-item {
-        text-align: justify;
+        text-align: center;
     }
 }
