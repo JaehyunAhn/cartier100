@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#content3 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+
+#c3-background {
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: -1;
+}
+
+#c3-textbox {
+    position: absolute;
+
+    left: 10%;
+    text-align: center;
+    color: #ad1500;
+    justify-content: center;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    .quote {
+        width: 40px;
+        height: auto;
+    }
+    #c3-textbox {
+        top: 16%;
+        width: 40%;
+        min-width: 250px;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    .quote {
+        width: 60px;
+        height: auto;
+    }
+    #c3-textbox {
+        top: 20%;
+        width: 45%;
+        max-width: 500px;
+    }
+
+    #c3-textbox p {
+        font-size: 1.2em;
+    }
+}
