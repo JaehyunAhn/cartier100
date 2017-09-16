@@ -3,6 +3,8 @@
 #content0 {
     position: relative;
     overflow: hidden;
+    padding-top: 60px;
+    margin-bottom: -1px;
 }
 
 #video-wrapper {
@@ -41,8 +43,7 @@
 
 #c0-bottom {
     color: white;
-    font-size: 0.9em;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
     text-align: justify;
 
     bottom: 0;
@@ -51,7 +52,6 @@
     /* scroll contents */
     overflow-y: auto;
     overflow-x: hidden;
-    height: 30%;
     z-index: 50;
 }
 
@@ -70,4 +70,20 @@
 .button:hover {
     border: 2px solid #ad1500;
     color: #ad1500;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #c0-bottom {
+        font-size: 0.9em;
+        height: 30%;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    #c0-bottom {
+        font-size: 1.2em;
+        /*height: 25%;*/
+    }
 }

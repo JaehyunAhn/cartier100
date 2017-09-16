@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+#content1 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+
+#c1-background {
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: -1;
+}
+
+.c1-button {
+    z-index: 20;
+
+    /* 버튼 내부 꾸미기 */
+    width: 18px;
+    background-color: rgba(60,60,60,0.8);
+    border-radius: 50px;
+
+    /* shadow */
+    box-shadow: 3px 3px 5px rgba(40,40,40,0.6);
+
+    /* font */
+    text-align: center;
+    color: rgb(240, 230, 230);
+    font-family: DidotRegular;
+}
+
+/* 버튼 개별 배치 */
+
+#c1b1 {
+    position: absolute;
+    left: 69%;
+    top: 23%;
+}
+
+#c1b2 {
+    position: absolute;
+    left: 53%;
+    top: 31%;
+}
+#c1b3 {
+    position: absolute;
+    left: 73%;
+    top: 44%;
+}
+#c1b4 {
+    position: absolute;
+    left: 53%;
+    top: 59%;
+}
+
+#c1-bottom {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-align: justify;
+
+    bottom: 0;
+    padding: 3% 5% 3% 5%;
+    position: absolute;
+    /* scroll contents */
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 50;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    .c1-button {
+        padding: 3px;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+    #c1-bottom {
+        font-size: 0.9em;
+        height: 20%;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    .c1-button {
+        padding: 10px;
+        font-size: 1em;
+    }
+    #c1-bottom {
+        font-size: 1.2em;
+        /*height: 20%;*/
+    }
+}
