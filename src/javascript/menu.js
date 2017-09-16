@@ -16,6 +16,7 @@ $(document).ready(function(){
     // 스크롤이 일어났다면
     $(window).scroll(function() {
         var i = checkMenuPostion();
+        console.log(contents_array[i].attributes['name'].value);
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
     });
     // 데스크탑용 햄버거
@@ -46,7 +47,7 @@ function checkMenuPostion() {
         return i;
     }
     else {
-        return i+1;
+        return i;
     }
 }
 
@@ -57,7 +58,7 @@ function menuButtonClicked(position) {
             i -= 1;
             console.log(i);
             var content = $('#content' + i).position();
-            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 300)
+            $('html, body').animate({scrollTop: content.top}, 300)
         }
     }
     else if (position == 'right') {
@@ -66,7 +67,7 @@ function menuButtonClicked(position) {
             i += 1;
             console.log(i);
             var content = $('#content' + i).offset();
-            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 300)
+            $('html, body').animate({scrollTop: content.top}, 300)
         }
     }
     else {
