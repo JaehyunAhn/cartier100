@@ -8,7 +8,7 @@ $(document).ready(function() {
         if (!$(this).hasClass('animated')) {
             // text replace xxx to +
             $(this).text($(this)[0].attributes['name'].value);
-            $(this).dequeue().stop().animate({ width: "20%" }, 200, function() {
+            $(this).dequeue().stop().animate({ width: "20%" }, 250, function() {
             });
         }
     }, function() {
