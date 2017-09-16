@@ -6,10 +6,29 @@
     position: relative;
     background-size: 100%;
     background-image: url('../image/content2/background.jpg');
+
+    /* flex settings */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .review-item {
+    width: 48%;
+    height: auto;
+}
 
+.review-item img {
+    width: 80%;
+    /* image with drop shadow */
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.c2-text-box {
+    color: white;
+    text-align: justify;
 }
 
 /* 모바일 */
