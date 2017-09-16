@@ -18,6 +18,10 @@ $(document).ready(function(){
         var i = checkMenuPostion();
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
     });
+    // 데스크탑용 햄버거
+    $('#hamburger').click(function(){
+        $(this).toggleClass('open');
+    });
 });
 
 function checkMenuPostion() {
@@ -48,7 +52,7 @@ function menuButtonClicked(position) {
             i -= 1;
             console.log(i);
             var content = $('#content' + i).position();
-            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 500)
+            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 300)
         }
     }
     else if (position == 'right') {
@@ -57,7 +61,7 @@ function menuButtonClicked(position) {
             i += 1;
             console.log(i);
             var content = $('#content' + i).offset();
-            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 500)
+            $('html, body').animate({scrollTop: content.top-$('#top').height()}, 300)
         }
     }
     else {

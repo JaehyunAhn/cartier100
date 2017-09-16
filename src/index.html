@@ -10,7 +10,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments)};
       gtag('js', new Date());
-
       gtag('config', 'UA-23339598-4');
     </script>
     <title>까르띠에 탱크 100주년 X 타임포럼</title>
@@ -41,13 +40,22 @@
     </a>
 </div>
 <div id="menu">
-    <button class="menu_button" onclick="menuButtonClicked('left')">
-        <img id="button_left" src="./image/menu/arrow_left@2.png">
-    </button>
-    <div id="navigation_text"></div>
-    <button class="menu_button" onclick="menuButtonClicked('right')">
-        <img id="button_right" src="./image/menu/arrow_right@2.png">
-    </button>
+    <div id="menu-mobile">
+        <button class="menu_button" onclick="menuButtonClicked('left')">
+            <img id="button_left" src="./image/menu/arrow_left@2.png">
+        </button>
+        <div id="navigation_text"></div>
+        <button class="menu_button" onclick="menuButtonClicked('right')">
+            <img id="button_right" src="./image/menu/arrow_right@2.png">
+        </button>
+    </div>
+    <a id="menu-toggle">
+        <div id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </a>
 </div>
 <div class="dummy" style="height:60px;"></div>
 <div id="page-container">
