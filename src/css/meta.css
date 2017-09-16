@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* color: grey: #b4b4b4, cartier red: #ad1500 */
 
 @font-face {
     font-family: 'DidotRegular';
@@ -24,4 +25,19 @@ body {
     /* 배경화면 */
     background-image: url(../image/meta/tile.jpg);
     background-repeat: repeat;
+}
+
+.blur-effect {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+    color: #ad1500;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: white;
 }

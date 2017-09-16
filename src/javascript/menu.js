@@ -19,8 +19,13 @@ $(document).ready(function(){
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
     });
     // 데스크탑용 햄버거
-    $('#hamburger').click(function(){
-        $(this).toggleClass('open');
+    $('#hamburger,.menu-jumper').click(function(){
+        // X 모양 만들기
+        $('#hamburger').toggleClass('open');
+        // 컨텐츠 블러로 하기
+        $('#page-container').toggleClass('blur-effect');
+        // 메뉴 보이게 하기
+        $('#menu-desktop').toggle();
     });
 });
 
