@@ -157,3 +157,13 @@
     left: 5px;
     }
 }
+
+a.menu-jumper {
+    text-decoration: none;
+    color: #ad1500;
+    font-size: 1.2em;
+}
+
+a.menu-jumper:hover {
+    color: white;
+}
