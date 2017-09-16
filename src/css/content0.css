@@ -55,7 +55,7 @@
     z-index: 50;
 }
 
-.button {
+#content0 .button {
     width: 10%;
     min-width: 100px;
     height: auto;
@@ -67,7 +67,7 @@
     margin-top: 5%;
 }
 
-.button:hover {
+#content0 .button:hover {
     border: 2px solid #ad1500;
     color: #ad1500;
 }
