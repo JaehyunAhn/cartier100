@@ -18,12 +18,7 @@ $(document).ready(function(){
         var i = checkMenuPostion();
         console.log(contents_array[i].attributes['name'].value, i);
         // i == 3 탱크의 케이스 함수 실행
-        if (i == 3) {
-            flewAttributes(true);
-        }
-        else {
-            flewAttributes(false);
-        }
+        flewAttributes(i);
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
     });
     // 데스크탑용 햄버거
