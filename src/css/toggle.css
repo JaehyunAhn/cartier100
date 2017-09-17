@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* toggle basic settings */
+.toggle-wrapper {
+    width: 60%;
+    height: 40%;
+
+    position: absolute;
+    z-index: 1000;
+    left: 20%;
+    top: 30%;
+}
+
+.toggle-head {
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    padding: 2%;
+    color: #a30001;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-body {
+    background-color: rgba(20, 20, 20, 0.8);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    color: ivory;
+    padding: 2%;
+}
+
+/* specific settings */
+#c0-toggle-1 {
+    display: none;
+    z-index: 150;
+}
+
+#c2-toggle-1 {
+    position: absolute;
+    display: none;
+    z-index: 150;
+}
+
+#c2-toggle-2 {
+    position: absolute;
+    display: none;
+    z-index: 150;
+}
+
+#c2-toggle-3 {
+    position: absolute;
+    display: none;
+    z-index: 150;
+}
+
+#c2-toggle-4 {
+    position: absolute;
+    display: none;
+    z-index: 150;
+}
+
+#c5-toggle-1 {
+    position: absolute;
+    display: none;
+    z-index: 150;
+}
