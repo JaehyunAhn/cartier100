@@ -19,7 +19,7 @@ $(document).ready(function() {
             $(this).text($(this)[0].attributes['name'].value);
             $('#c1-bottom').text(watch_object[$(this)[0].attributes['name'].value]);
             $(this).dequeue().stop().animate({ width: "20%" }, 250, function() {
-
+                // none
             });
         }
     }, function() {
