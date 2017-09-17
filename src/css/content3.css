@@ -8,8 +8,15 @@
 
 #c3-background {
     width: 100%;
-    position: relative;
+    position: absolute;
     height: auto;
+    z-index: -10;
+}
+
+#c3-background-dummy {
+    width: 100%;
+    height: auto;
+    position: relative;
     z-index: -10;
 }
 
