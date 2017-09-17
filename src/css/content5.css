@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+#content5 {
+    position: relative;
+    overflow: hidden;
+}
+
+#c5-wrapper {
+    position: relative;
+    width:100%;
+    background: url('../image/content5/dot3.png') repeat;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c5-people1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+    z-index: -6;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+    filter: drop-shadow(5px 5px 10px #222);
+}
+
+#c5-people2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -5;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+    filter: drop-shadow(5px 5px 10px #222);
+}
+
+#c5-people3 {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    height: 100%;
+    z-index: -6;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+    filter: drop-shadow(5px 5px 10px #222);
+}
+
+#c5-text {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 1%;
+    z-index: 10;
+}
+
+#c5-text h2 {
+    margin: 0;
+}
+
+#c5-transparent-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 0, 1, 0.6);
+    z-index: -2;
+}
+
+.c5-floating-1 {
+    animation-name: c5-floating-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes c5-floating-1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(-3px, 0px); }
+    to   { transform: translate(0, -0px); }
+}
+
+.c5-floating-2 {
+    animation-name: c5-floating-2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@keyframes c5-floating-2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(10px, 0px); }
+    to   { transform: translate(0, 0px); }
+}
+
+.c5-floating-3 {
+    animation-name: c5-floating-3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@keyframes c5-floating-3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(15px, 0px); }
+    to   { transform: translate(0, 0px); }
+}
+
+#content5 .button {
+    width: 10%;
+    min-width: 120px;
+    height: auto;
+    background: rgba(20,20,20,0.5);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#content5 .button:hover {
+    border: 2px solid #ad1500;
+    color: #ad1500;
+}
+
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #c5-wrapper {
+        height: 250px;
+    }
+    #c5-text {
+        font-size: 0.9em;
+    }
+    #content5 .button {
+        padding: 1%;
+        border: 1px solid white;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    #content5 {
+        margin-top: -10px;
+    }
+    #c5-text {
+        font-size: 1.2em;
+    }
+    #c5-wrapper {
+        height: 600px;
+    }
+    #content5 .button {
+        padding: 1%;
+        border: 2px solid white;
+    }
+}

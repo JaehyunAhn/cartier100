@@ -3,7 +3,6 @@
 #content1 {
     position: relative;
     overflow: hidden;
-    margin-bottom: -5px;
 }
 
 #c1-background {
@@ -83,6 +82,9 @@
 
 /* 데스크탑 */
 @media screen and (min-width: 768px) {
+    #content1 {
+        margin-bottom: -10px;
+    }
     .c1-button {
         padding: 10px;
         font-size: 1em;
