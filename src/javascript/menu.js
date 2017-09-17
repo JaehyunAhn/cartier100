@@ -11,6 +11,8 @@ $(document).ready(function(){
         var value = $(this).position().top - 80;
        contents_height.push(value);
     });
+    console.log(contents_height)
+    contents_height[4] += 120;
     // 첫 로딩시 위치 확인
     var i = checkMenuPostion();
     $('#navigation_text').text(contents_array[i].attributes['name'].value);
@@ -63,8 +65,8 @@ function menuButtonClicked(position) {
         if (i != 0) {
             i -= 1;
             console.log(i);
-            var content = $('#content' + i).position();
-            $('html, body').animate({scrollTop: content.top + 5}, 300)
+            var content = $('#content' + i).offset();
+            $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
     }
     else if (position == 'right') {
@@ -73,7 +75,7 @@ function menuButtonClicked(position) {
             i += 1;
             console.log(i);
             var content = $('#content' + i).offset();
-            $('html, body').animate({scrollTop: content.top + 5}, 300)
+            $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
     }
     else {
