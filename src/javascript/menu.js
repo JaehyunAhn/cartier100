@@ -11,7 +11,7 @@ $(document).ready(function(){
         var value = $(this).position().top - 80;
        contents_height.push(value);
     });
-    console.log(contents_height)
+    contents_height[3] -= 80;
     contents_height[4] += 120;
     // 첫 로딩시 위치 확인
     var i = checkMenuPostion();

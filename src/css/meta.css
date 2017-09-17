@@ -57,7 +57,7 @@ a {
 }
 
 .floating1 {
-    animation-name: floating;
+    animation-name: floating1;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -72,7 +72,7 @@ a {
 }
 
 .floating2 {
-    animation-name: floating;
+    animation-name: floating2;
     animation-duration: 3.3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
