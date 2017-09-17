@@ -8,9 +8,11 @@
     width: 100%;
     height: auto;
     position: relative;
-    background-image: url('../image/content2/background.jpg');
-    background-attachment: fixed;
+    background: url('../image/content2/background.jpg') no-repeat center center fixed;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
     /* flex settings */

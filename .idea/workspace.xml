@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="155b11c1-a2e7-4dd2-aff5-99cbf1aa5520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/content2.css" afterPath="$PROJECT_DIR$/src/css/content2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/content6.css" afterPath="$PROJECT_DIR$/src/css/content6.css" />
     </list>
     <ignored path="cartier100.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +71,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="content6.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/content6.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="content2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/content2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19278467">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.32130778">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -178,13 +189,13 @@
         <option value="$PROJECT_DIR$/src/lib/flipster/jquery.flipster.min.css" />
         <option value="$PROJECT_DIR$/src/css/footer.css" />
         <option value="$PROJECT_DIR$/src/javascript/content3.js" />
-        <option value="$PROJECT_DIR$/src/css/content6.css" />
         <option value="$PROJECT_DIR$/src/javascript/content1.js" />
         <option value="$PROJECT_DIR$/src/javascript/content6.js" />
         <option value="$PROJECT_DIR$/src/css/content3.css" />
         <option value="$PROJECT_DIR$/src/javascript/menu.js" />
         <option value="$PROJECT_DIR$/src/css/meta.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/css/content6.css" />
         <option value="$PROJECT_DIR$/src/css/content2.css" />
       </list>
     </option>
@@ -1025,14 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/content6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascript/content1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1155,10 +1158,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/content6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/content2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19278467">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.32130778">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
