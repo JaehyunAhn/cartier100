@@ -6,6 +6,15 @@ $(document).ready(function() {
     $('.trigger').click(function(e) {
         e.preventDefault();
         // show 대응하는 toggle class
-        $('#' + $(this)[0].attributes['name'].value).css('display', 'block');
+        var item = $('#' + $(this)[0].attributes['meta'].value)
+        if (item.is(':visible')){
+            item.css('display', 'none');
+            $("#page-container, #footer, #top").toggleClass('blur-effect');
+        }
+        else{
+            item.css('display', 'block');
+            $("#page-container, #footer, #top").toggleClass('blur-effect');
+        }
+
     });
 });

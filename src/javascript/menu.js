@@ -26,7 +26,7 @@ $(document).ready(function(){
         // X 모양 만들기
         $('#hamburger').toggleClass('open');
         // 컨텐츠 블러로 하기
-        $("#page-container, #footer").toggleClass('blur-effect');
+        $("#page-container, #footer, #top").toggleClass('blur-effect');
         // 메뉴 보이게 하기
         $('#menu-desktop').toggle();
     });

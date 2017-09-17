@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
 #menu {
-    z-index: 1000;
+    z-index: 100;
     position: fixed;
     bottom: 0;
-    width: 100%;
 }
 
 #menu-mobile {
@@ -37,6 +36,9 @@
 
 /* 모바일 */
 @media screen and (max-width: 768px) {
+    #menu {
+        width: 100%;
+    }
     .menu_button {
         visibility: visible;
     }
@@ -51,6 +53,11 @@
 
 /* 데스크탑 */
 @media screen and (min-width: 768px) {
+    #menu {
+        position: fixed;
+        right: 0;
+    }
+
     #menu-mobile {
         visibility: hidden;
     }

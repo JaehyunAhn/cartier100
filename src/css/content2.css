@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#content2 {
+    position: relative;
+}
+
 #c2-review-wrapper {
     width: 100%;
     height: auto;

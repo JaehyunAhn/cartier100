@@ -2,13 +2,19 @@
 
 /* toggle basic settings */
 .toggle-wrapper {
-    width: 60%;
-    height: 40%;
+    min-width: 250px;
+    width: 80%;
+    height: 60%;
 
-    position: absolute;
+    position: fixed;
     z-index: 1000;
-    left: 20%;
-    top: 30%;
+    left: 10%;
+    top: 20%;
+}
+
+/* X button */
+.toggle-wrapper a {
+    color: white;
 }
 
 .toggle-head {
@@ -30,6 +36,29 @@
 
     color: ivory;
     padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.toggle-body .text {
+    width: 100%;
+    height: auto;
+}
+
+.toggle-body .button {
+    min-width: 100px;
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid ivory;
+    align-content: center;
+    text-align: center;
+}
+
+.toggle-body .button:hover {
+    color: #ad1500;
+    border: 1px solid #ad1500;
 }
 
 /* specific settings */
@@ -39,31 +68,26 @@
 }
 
 #c2-toggle-1 {
-    position: absolute;
     display: none;
     z-index: 150;
 }
 
 #c2-toggle-2 {
-    position: absolute;
     display: none;
     z-index: 150;
 }
 
 #c2-toggle-3 {
-    position: absolute;
     display: none;
     z-index: 150;
 }
 
 #c2-toggle-4 {
-    position: absolute;
     display: none;
     z-index: 150;
 }
 
 #c5-toggle-1 {
-    position: absolute;
     display: none;
     z-index: 150;
 }
