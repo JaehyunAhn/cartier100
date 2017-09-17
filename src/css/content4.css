@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+#content4 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+
+#c4-background {
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: -10;
+}
+
+#c4-bottom {
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+
+    display: flex;
+    justify-content: center;
+
+    bottom: 5px;
+    margin: 0;
+    padding: 3% 0 3% 0;
+    position: absolute;
+    /* scroll contents */
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 50;
+}
+
+#content4 .button {
+    width: 10%;
+    min-width: 100px;
+    height: auto;
+    background: transparent;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#content4 .button:hover {
+    border: 2px solid #ad1500;
+    color: #ad1500;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #c4-bottom {
+        font-size: 0.7em;
+    }
+
+    #content4 .button {
+        padding: 1%;
+        border: 1px solid white;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    #c4-bottom {
+        font-size: 1.2em;
+    }
+    #content4 .button {
+        padding: 2%;
+        border: 2px solid white;
+    }
+}

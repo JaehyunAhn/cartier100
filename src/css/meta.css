@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* color: grey: #b4b4b4, cartier red: #ad1500 */
+/* color: grey: #b4b4b4, cartier red: #a30001 */
 
 @font-face {
     font-family: 'DidotRegular';
@@ -23,7 +23,6 @@ body {
     /* 폰트 */
     font-family: NanumGothicLight;
     font-size: 1em;
-    line-height: 120%;
     color: #000;
 }
 
@@ -85,5 +84,20 @@ a {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 8px); }
     to   { transform: translate(0, -0px); }
+}
+
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    body {
+        line-height: 130%;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    body {
+        line-height: 160%;
+    }
 }
 

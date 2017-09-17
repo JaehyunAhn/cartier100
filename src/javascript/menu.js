@@ -60,7 +60,7 @@ function menuButtonClicked(position) {
             i -= 1;
             console.log(i);
             var content = $('#content' + i).position();
-            $('html, body').animate({scrollTop: content.top+1}, 300)
+            $('html, body').animate({scrollTop: content.top + 5}, 300)
         }
     }
     else if (position == 'right') {
@@ -69,7 +69,7 @@ function menuButtonClicked(position) {
             i += 1;
             console.log(i);
             var content = $('#content' + i).offset();
-            $('html, body').animate({scrollTop: content.top+1}, 300)
+            $('html, body').animate({scrollTop: content.top + 5}, 300)
         }
     }
     else {
