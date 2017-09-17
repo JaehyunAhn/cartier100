@@ -11,13 +11,19 @@
     src: url(../fonts/SpoqaHanSansRegular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'NanumGothicLight';
+    src: url(../fonts/NanumGothicLight.ttf) format('truetype');
+}
+
 body {
     /* 기본 */
     margin: 0;
     padding: 0;
     /* 폰트 */
-    font-family: SpoqaSans;
+    font-family: NanumGothicLight;
     font-size: 1em;
+    line-height: 120%;
     color: #000;
 }
 
