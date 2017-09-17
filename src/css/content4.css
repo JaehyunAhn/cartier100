@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
 
-    bottom: 5px;
+    bottom: 8px;
     margin: 0;
     padding: 3% 0 3% 0;
     position: absolute;
@@ -60,6 +60,10 @@
 
 /* 데스크탑 */
 @media screen and (min-width: 768px) {
+    #content4 {
+        margin-top: -10px;
+        margin-bottom: -5px;
+    }
     #c4-bottom {
         font-size: 1.2em;
     }
