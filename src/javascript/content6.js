@@ -9,7 +9,7 @@ $(document).ready(function(){
         start:0,
         enableNavButtons: true,
         onItemSwitch: function(currentItem, previousItem) {
-            console.log(currentItem);
+            //console.log(currentItem);
         }
     });
 });

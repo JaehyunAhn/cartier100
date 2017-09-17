@@ -71,7 +71,7 @@
     #c3-textbox {
         left: 4%;
         /* size of textbox */
-        top: 22%;
+        top: 1%;
         width: 30%;
         min-width: 180px;
         text-shadow: 1px 1px ivory;
@@ -93,7 +93,7 @@
         line-height: 200%;
         font-size: 1em;
         /* size of textbox */
-        top: 20%;
+        top: 4%;
         width: 45%;
         max-width: 500px;
     }

@@ -1,13 +1,15 @@
 /**
  * Created by sogo on 16/09/2017.
  */
-var contents_height = []
+var contents_height = [];
 
 $(document).ready(function(){
     // 콘텐츠 높이 확인하고 contents_height에 모두 삽입
     var contents_array = $('.content');
     contents_array.each(function(){
-       contents_height.push($(this).position().top);
+        // top 높이 제외하고
+        var value = $(this).position().top - 80;
+       contents_height.push(value);
     });
     // 첫 로딩시 위치 확인
     var i = checkMenuPostion();
@@ -35,6 +37,8 @@ $(document).ready(function(){
 function checkMenuPostion() {
     // 현재 스크롤과 컨텐츠 위치 비교
     var height = $(window).scrollTop();
+    //console.log(contents_height);
+    //console.log(height);
     for (var i = contents_height.length-1; i >= 0; i--) {
         if (height < contents_height[0]) {
             i = -1;
