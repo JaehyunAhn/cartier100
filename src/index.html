@@ -17,6 +17,11 @@
     <script type="text/javascript" async src="http://www.google-analytics.com/analytics.js"></script>
     <meta property="og:locale" content="ko_KR">
     <meta property="og:type" content="website">
+    <!-- image slider library SWIPER -->
+    <link rel="stylesheet" href="./lib/swiper/swiper_settings.css">
+    <link rel="stylesheet" href="./lib/swiper/swiper.min.css">
+    <script type="text/javascript" src="./lib/swiper/swiper.min.js"></script>
+
     <!-- HEADER SCRIPTS -->
     <link rel="stylesheet" type="text/css" href="">
     <script type="text/javascript" src=""></script>
@@ -91,7 +96,7 @@
     </a>
     <a class="menu-jumper" href="#content4">
         <div class="menu-item">
-            앤디워홀이 사랑한 탱크
+            명사들이 사랑한 탱크
         </div>
     </a>
     <a class="menu-jumper" href="#content5">
@@ -256,35 +261,60 @@
         </div>
     </div>
     <!-- ANDY WARHOL-->
-    <div class="content" id="content4" name="앤디워홀이 사랑한 탱크">
+    <div class="content" id="content4" name="명사들이 사랑한 탱크">
         <div style="background-color:#a30001; height:55px; width:100%; margin-bottom: -1px;">
 
         </div>
         <div style="background-color:#a30001; height:75px; width:100%; margin-bottom: -1px; text-align: center;">
             <p style="font-family: DidotRegular; color: ivory; margin: 0; padding:10px; ">#TANK IS LEGEND</p>
         </div>
-        <img id="c4-background" src="./image/content4/andywarhol.jpg">
-        <div id="c4-bottom">
-            <div id="c4-wrapper">
-                <div style="margin: 10px; font-family: DidotRegular;">
-                    "I don't really wear my Tank to tell time", Andy Warhol.
-                </div>
-                <div style="margin: 10px;">
-                    "나는 사실 시간을 보기 위해 탱크를 차지 않는다", 앤디워홀
-                </div>
-                <a href="#">
-                    <div class="button">
-                        자세히 보기
+        <!-- Swiper SLIDE STARTS IN THIS SIDE! -->
+        <div id="c4-wrapper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="c4-slide-1">
+                        <img class="swiper-bg" src="./image/content4/andywarhol.jpg">
+                        <div class="swiper-textbox">
+                            <div class="swiper-inner-text">
+                                "I don't really wear my Tank to tell time",Andy Warhol.<br>
+                                "나는 사실 시간을 보기 위해 탱크를 차지 않는다", 앤디 워홀
+                            </div>
+                            <a href="./" class="trigger" meta="c4-toggle-1">
+                                <div class="button">
+                                    자세히 보기
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </a>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
+
+        <!-- Swiper JS -->
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                parallax: true,
+                paginationClickable: true
+            });
+        </script>
     </div>
     <!-- TANK LOVERS -->
     <div class="content" id="content5" name="탱크를 사랑하는 사람들">
         <div style="background:url(./image/content5/dot3.png) repeat; height:55px;
         margin-top:1px; width:100%; background-color: rgba(105, 0, 1, 0.6);">
-
         </div>
         <div id="c5-wrapper">
             <img id="c5-people1" class="c5-floating-1" src="./image/content5/people01.png">
@@ -438,6 +468,36 @@
                     TEST HEAD
                 </div>
                 <a href="./" class="trigger" meta="c2-toggle-4">
+                    <div class="close">
+                        X
+                    </div>
+                </a>
+            </div>
+            <div class="toggle-body">
+                <div class="text">
+                    THIS IS BODY
+                </div>
+                <a href="#">
+                    <div class="button">
+                        더 알아보기
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="button">
+                        더 알아보기2
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--  ANDY's Toggle -->
+    <div id="c4-toggle-1">
+        <div class="toggle-wrapper">
+            <div class="toggle-head">
+                <div class="title">
+                    TEST HEAD
+                </div>
+                <a href="./" class="trigger" meta="c4-toggle-1">
                     <div class="close">
                         X
                     </div>

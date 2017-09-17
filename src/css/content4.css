@@ -6,6 +6,10 @@
     margin-bottom: -5px;
 }
 
+#c4-wrapper {
+    z-index: -1000;
+}
+
 #c4-background {
     width: 100%;
     position: relative;
@@ -46,6 +50,10 @@
     color: #ad1500;
 }
 
+#c4-slide-1 {
+
+}
+
 /* 모바일 */
 @media screen and (max-width: 768px) {
     #c4-bottom {
@@ -68,7 +76,7 @@
         font-size: 1.2em;
     }
     #content4 .button {
-        padding: 2%;
+        padding: 1%;
         border: 2px solid white;
     }
 }

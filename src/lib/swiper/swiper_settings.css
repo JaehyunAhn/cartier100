@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    width: 100%;
+
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-textbox {
+    z-index: 500;
+    width: 94%;
+    height: auto;
+    position: absolute;
+    color: white;
+    padding: 3%;
+    bottom: 0;
+    background-color: rgba(83, 2, 1, 0.4);
+}
+
+.swiper-inner-text {
+    margin-bottom: 10px;
+}
+
+.swiper-bg {
+    position: relative;
+    width:100%;
+    height: auto;
+    min-height: 210px;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    .swiper-container {
+        margin-bottom: 4px;
+    }
+    .swiper-textbox {
+        font-size: 0.65em;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    .swiper-container {
+        margin-bottom: 8px;
+    }
+    .swiper-textbox {
+        font-size: 1em;
+    }
+}

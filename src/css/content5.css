@@ -3,6 +3,7 @@
 #content5 {
     position: relative;
     overflow: hidden;
+    z-index: 20;
 }
 
 #c5-wrapper {

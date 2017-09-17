@@ -87,6 +87,11 @@
     z-index: 150;
 }
 
+#c4-toggle-1 {
+    display: none;
+    z-index: 150;
+}
+
 #c5-toggle-1 {
     display: none;
     z-index: 150;
