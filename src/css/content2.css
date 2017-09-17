@@ -6,6 +6,9 @@
     position: relative;
     background-size: 100%;
     background-image: url('../image/content2/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 
     /* flex settings */
     display: flex;
