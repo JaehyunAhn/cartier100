@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#content6 {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+
+}

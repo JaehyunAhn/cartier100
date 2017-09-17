@@ -28,7 +28,7 @@ $(document).ready(function() {
         $(this).addClass('animated').animate({ width: "20px" },
             200, "linear", function() {
                 $(this).removeClass('animated').dequeue();
-                // 별일 없으면 디폴트로 돌아감 
+                // 별일 없으면 디폴트로 돌아감
                 $('#c1-bottom').text(watch_object['default']);
             });
     });
