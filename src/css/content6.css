@@ -5,12 +5,32 @@
     overflow: hidden;
 }
 
+#content6 .button {
+    width: 10%;
+    min-width: 180px;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#content6 .button:hover {
+    border: 2px solid #ad1500;
+    color: #ad1500;
+}
+
 /* 모바일 */
 @media screen and (max-width: 768px) {
-
+    #content6 .button {
+        padding: 1%;
+        border: 1px solid white;
+    }
 }
 
 /* 데스크탑 */
 @media screen and (min-width: 768px) {
-
+    #content6 .button {
+        padding: 1%;
+        border: 2px solid white;
+    }
 }
