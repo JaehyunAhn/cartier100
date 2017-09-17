@@ -2,10 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155b11c1-a2e7-4dd2-aff5-99cbf1aa5520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/coverflow/coverflow_settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/content6.css" afterPath="$PROJECT_DIR$/src/css/content6.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/build/wrap.end" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/build/wrap.start" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/coverflow.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/gorillaz-plasticbeach.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/ironmaiden-thefinalfrontier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/kidrock-bornfree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/kingsofleon-comearoundsunshine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/lilwayne-iamnotahumanbeing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/maroon5-handsallover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/mychemicalromance-dangerdays.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/order of the black - black label society.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/recovery-recovery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/taylorswift-speaknow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/thebandperry-thebandperry.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/usher-raymondvraymond.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/demo/img/weezer-hurley.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/coverflow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/coverflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/coverflow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/coverflow.standalone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/coverflow.standalone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/dist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/libs/jquery.hammer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/libs/jquery.mobile.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/libs/jquery.mobile.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/css/coverflow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/css/coverflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/js/coverflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/js/renderer.3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/js/renderer.classic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/js/support.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/js/support.transform3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/css/visual.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/img/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/lib/debounce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/3d/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/3d/geometry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/all/methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/all/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/all/transitions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/compiled.jquery-animate-3d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/compiled.jquery-animate-classic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/compiled.transition-raf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/jquery-animate-3d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/jquery-animate-classic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/matrix/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/matrix/geometry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/qunit/transition-raf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/swipe/hammer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/swipe/jqm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/visual_3d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow-3.0.2/tests/visual_classic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/coverflow/coverflow_settings.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/content6/1.png" afterPath="$PROJECT_DIR$/src/image/content6/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/content6/2.png" afterPath="$PROJECT_DIR$/src/image/content6/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/content6/3.png" afterPath="$PROJECT_DIR$/src/image/content6/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/content6/4.png" afterPath="$PROJECT_DIR$/src/image/content6/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/content6/5.png" afterPath="$PROJECT_DIR$/src/image/content6/5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/toggle.css" afterPath="$PROJECT_DIR$/src/css/toggle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/swiper/swiper.min.css" afterPath="$PROJECT_DIR$/src/lib/swiper/swiper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cartier100.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +101,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.17958412">
+                <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="toggle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/toggle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content6.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/content6.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -47,43 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content6.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/content6.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content5.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/content5.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javascript/content1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.88889">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.67324954">
+              <caret line="348" column="62" selection-start-line="348" selection-start-column="62" selection-end-line="348" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,20 +167,21 @@
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coverflow_settings.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/coverflow/coverflow_settings.css">
+      <file leaf-file-name="swiper.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/swiper/swiper.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.021468926">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#4465#4723#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,15 +222,15 @@
         <option value="$PROJECT_DIR$/src/css/swiper_settings.css" />
         <option value="$PROJECT_DIR$/src/css/content0.css" />
         <option value="$PROJECT_DIR$/src/css/content5.css" />
-        <option value="$PROJECT_DIR$/src/lib/swiper/swiper.min.css" />
         <option value="$PROJECT_DIR$/src/lib/swiper/swiper_settings.css" />
         <option value="$PROJECT_DIR$/src/css/content4.css" />
-        <option value="$PROJECT_DIR$/src/javascript/content6.js" />
         <option value="$PROJECT_DIR$/src/javascript/content1.js" />
         <option value="$PROJECT_DIR$/src/css/toggle.css" />
-        <option value="$PROJECT_DIR$/src/css/content6.css" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/lib/coverflow/coverflow_settings.css" />
+        <option value="$PROJECT_DIR$/src/css/content6.css" />
+        <option value="$PROJECT_DIR$/src/javascript/content6.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/lib/swiper/swiper.min.css" />
       </list>
     </option>
   </component>
@@ -271,28 +340,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="swiper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cartier100" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cartier100" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coverflow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,8 +656,8 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13951011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.251634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2513312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -731,8 +778,7 @@
             <element signature="n#style#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -826,8 +872,7 @@
             <element signature="n#style#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -936,26 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.1373494">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascript/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26027396">
@@ -1038,22 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/swiper/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10253583">
-          <caret line="14" column="4368" selection-start-line="14" selection-start-column="4368" selection-end-line="14" selection-end-column="4368" />
-          <folding>
-            <element signature="e#2951#3209#2" expanded="true" />
-            <element signature="e#3350#3608#2" expanded="true" />
-            <element signature="e#3728#3986#2" expanded="true" />
-            <element signature="e#4066#4324#2" expanded="true" />
-            <element signature="e#4843#5101#2" expanded="true" />
-            <element signature="e#14778#16225#2" expanded="true" />
-            <element signature="e#16380#17824#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/swiper/swiper_settings.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93968636">
@@ -1070,6 +1079,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascript/content1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23615819">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/content5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.17958412">
+            <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/toggle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/content6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascript/content6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1078,36 +1141,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascript/content1.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/swiper/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#4465#4723#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/toggle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/content6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.88889">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.67324954">
+          <caret line="348" column="62" selection-start-line="348" selection-start-column="62" selection-end-line="348" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1123,26 +1170,9 @@
             <element signature="n#style#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#2;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/content5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/coverflow/coverflow_settings.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021468926">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
