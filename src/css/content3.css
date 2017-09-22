@@ -63,15 +63,15 @@
 }
 
 /* 모바일 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .quote {
         width: 20px;
         height: auto;
     }
     #c3-textbox {
-        left: 4%;
+        left: 3%;
         /* size of textbox */
-        top: 1%;
+        top: 0%;
         width: 30%;
         min-width: 180px;
         text-shadow: 1px 1px ivory;
@@ -83,22 +83,39 @@
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 768px) {
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px)
+{
     .quote {
         width: 60px;
         height: auto;
     }
     #c3-textbox {
-        left: 5%;
+        left: 3%;
         line-height: 200%;
         font-size: 1em;
         /* size of textbox */
-        top: 4%;
+        top: 9%;
         width: 45%;
         max-width: 500px;
     }
 
     #c3-textbox p {
         font-size: 1.2em;
+    }
+}
+
+/* 더 클때 */
+@media screen
+and (min-width: 1025px) {
+    #c3-textbox {
+        left: 11%;
+        line-height: 200%;
+        font-size: 1.4em;
+        top: 6%;
+        width: 35%;
+        max-width: 500px;
+        z-index: 100;
     }
 }
