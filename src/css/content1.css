@@ -6,26 +6,29 @@
 }
 
 #c1-background {
+    margin-bottom: -5px;
     width: 100%;
-    position: relative;
     height: auto;
+    position: relative;
     z-index: -1;
 }
 
 .c1-button {
+    width: 8%;
+    height: 8%;
     z-index: 20;
 
-    /* 버튼 내부 꾸미기 */
-    width: 18px;
-    background-color: rgba(60,60,60,0.8);
-    border-radius: 50px;
+    /*background-color: rgba(60,60,60,0.8);*/
+    /*background-color: rgba(255,250,255,0.4);*/
+    border-radius: 10px;
 
     /* shadow */
     box-shadow: 3px 3px 5px rgba(40,40,40,0.6);
 
     /* font */
     text-align: center;
-    color: rgb(240, 230, 230);
+    /*color: rgb(240, 230, 230);*/
+    color: #ad1500;
     font-family: DidotRegular;
 }
 
@@ -59,7 +62,8 @@
     text-align: justify;
     width: 90%;
 
-    bottom: 0;
+
+    bottom: -1px;
     padding: 3% 5% 3% 5%;
     position: absolute;
     /* scroll contents */
@@ -87,6 +91,7 @@
         margin-bottom: -10px;
     }
     .c1-button {
+        /* 버튼 내부 꾸미기 */
         padding: 10px;
         font-size: 1em;
     }

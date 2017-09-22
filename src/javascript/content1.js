@@ -25,7 +25,7 @@ $(window).on("load", function(){
     }, function() {
         // text replace + to xxx
         $(this).text('+');
-        $(this).addClass('animated').animate({ width: "20px" },
+        $(this).addClass('animated').animate({ width: "10%" },
             200, "linear", function() {
                 $(this).removeClass('animated').dequeue();
                 //$('#c1-bottom').text(watch_object['default']);
