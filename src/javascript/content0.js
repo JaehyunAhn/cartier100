@@ -3,12 +3,21 @@
  */
 
 $(window).on("load", function(){
+    var video_source = document.querySelector('video');
+    var video_storage = [
+        './movie/tank100_1.mp4'
+    ];
+    var active_video_url = video_storage[Math.round(Math.random()*(video_storage.length -1))];
+
+    if(video_source.canPlayType('video/mp4')) {
+        video_source.setAttribute('src', active_video_url);
+    }
+
     if (navigator.userAgent.match(/(iPod|iPhone)/)) {
         // 에이전트가 아이폰이면 리소스를 넣지 않습니다
     }
     else {
         // 에이전트가 아이폰이 아닐 경우
-        $('#video-wrapper').find('video').append('<source src="./movie/tank100-01.mp4" type="video/mp4">');
-        $('#video-wrapper').find('video')[0].load();
     }
+
 });
