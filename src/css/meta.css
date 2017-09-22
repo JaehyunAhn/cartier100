@@ -28,8 +28,7 @@ body {
 
 .cartier-carpet {
     /* 배경화면 */
-    background-image: url(../images/meta/tile.jpg);
-    background-repeat: repeat;
+    background: #ad1500 url(../images/meta/tile.jpg) repeat;
 }
 
 .blur-effect {

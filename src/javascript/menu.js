@@ -21,7 +21,7 @@ $(window).on("load", function(){
     // 스크롤이 일어났다면
     $(window).scroll(function() {
         var i = checkMenuPostion();
-        console.log(contents_array[i].attributes['name'].value, i);
+        //console.log(contents_array[i].attributes['name'].value, i);
         // i == 3 탱크의 케이스 함수 실행
         flewAttributes(i);
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
@@ -65,7 +65,7 @@ function menuButtonClicked(position) {
         var i = checkMenuPostion()
         if (i != 0) {
             i -= 1;
-            console.log(i);
+            //console.log(i);
             var content = $('#content' + i).offset();
             $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
@@ -74,7 +74,7 @@ function menuButtonClicked(position) {
         var i = checkMenuPostion()
         if (i + 1 != contents_height.length) {
             i += 1;
-            console.log(i);
+            //console.log(i);
             var content = $('#content' + i).offset();
             $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
