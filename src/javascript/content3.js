@@ -13,7 +13,7 @@ function flewAttributes(value) {
         is_working_for3 = true;
         $('#c3-background').fadeIn();
         $('#c3-slide1').animate({left: "0%", bottom: "3%"}, 800, function () {});
-        $('#c3-slide2').animate({left: "0%", bottom: "5%"}, 1000, function () {});
+        $('#c3-slide2').animate({left: "-0.2%", bottom: "5%"}, 1000, function () {});
         $('#c3-slide3').animate({left: "0%", bottom: "5%"}, 700, function () {});
         $('#c3-slide4').animate({left: "0%", bottom: "0"}, 500, function() {});
     }
