@@ -57,6 +57,9 @@
 
 /* 모바일 */
 @media screen and (max-width: 768px) {
+    #content4 {
+        margin-bottom: -6px;
+    }
     #c4-bottom {
         font-size: 0.7em;
     }
