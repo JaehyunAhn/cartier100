@@ -3,13 +3,9 @@
 /* toggle basic settings */
 .toggle-wrapper {
     min-width: 250px;
-    width: 80%;
-    height: 60%;
 
     position: fixed;
     z-index: 1000;
-    left: 10%;
-    top: 20%;
 }
 
 /* X button */
@@ -100,4 +96,38 @@
 #c6-toggle-1 {
     display: none;
     z-index: 150;
+}
+
+/* 모바일 */
+@media screen and (max-width: 767px) {
+    .toggle-wrapper {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 20%;
+    }
+}
+
+/* 데스크탑 */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px)
+{
+    .toggle-wrapper {
+        width: 50%;
+        height: 60%;
+        left: 25%;
+        top: 20%;
+    }
+}
+
+/* 더 클때 */
+@media screen
+and (min-width: 1025px) {
+    .toggle-wrapper {
+        width: 40%;
+        height: 60%;
+        left: 30%;
+        top: 20%;
+    }
 }
