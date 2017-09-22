@@ -6,6 +6,10 @@ $(window).on("load", function(){
         style: 'carousel',
         spacing: -0.5,
         buttons: true,
+        click: true,
+        scrollwheel: false,
+        keyboard: false,
+        touch: true,
         start:0,
         enableNavButtons: true,
         onItemSwitch: function(currentItem, previousItem) {
