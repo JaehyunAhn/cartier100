@@ -12,8 +12,8 @@
 }
 
 @font-face {
-    font-family: 'NanumGothicLight';
-    src: url(../fonts/NanumGothicLight.ttf) format('truetype');
+    font-family: 'NanumGothic';
+    src: url(../fonts/NanumGothic.ttf) format('truetype');
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     /* 폰트 */
-    font-family: NanumGothicLight;
+    font-family: NanumGothic;
     font-size: 1em;
     color: #000;
 }

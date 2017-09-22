@@ -65,6 +65,7 @@
     }
 
     #menu-mobile {
+        width: 0;
         visibility: hidden;
     }
 

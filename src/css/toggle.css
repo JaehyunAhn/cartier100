@@ -37,11 +37,34 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    line-height: 140%;
+    overflow: auto;
+    max-height: 80%;
+}
+
+.toggle-info-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.toggle-wrapper .image {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 3%;
+}
+
+.toggle-wrapper .image img {
+    width: 100%;
+    height: auto;
 }
 
 .toggle-body .text {
     width: 100%;
     height: auto;
+    text-align: justify;
+    padding-bottom: 3%;
 }
 
 .toggle-body .button {
