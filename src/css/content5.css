@@ -9,7 +9,7 @@
 #c5-wrapper {
     position: relative;
     width:100%;
-    background: url('../image/content5/dot3.png') repeat;
+    background: url('../images/content5/dot3.png') repeat;
     z-index: 0;
     display: flex;
     justify-content: center;
