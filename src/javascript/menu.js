@@ -12,7 +12,8 @@ $(window).on("load", function(){
        contents_height.push(value);
     });
     contents_height[3] -= 80;
-    contents_height[4] += 120;
+    contents_height[5] -= 80;
+    //contents_height[4] += 120;
 
     // 첫 로딩시 위치 확인
     var i = checkMenuPostion();

@@ -7,6 +7,7 @@
 }
 
 #c5-wrapper {
+    top: 2px;
     position: relative;
     width:100%;
     background: url('../images/content5/dot3.png') repeat;
