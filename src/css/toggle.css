@@ -18,11 +18,13 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 
-    padding: 2%;
+    padding: 3%;
     color: #a30001;
     font-weight: bolder;
     display: flex;
+    align-items:center;
     justify-content: space-between;
+    vertical-align: middle;
 }
 
 .toggle-body {
@@ -31,7 +33,7 @@
     border-bottom-right-radius: 5px;
 
     color: ivory;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
