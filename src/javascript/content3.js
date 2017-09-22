@@ -2,7 +2,7 @@
  * Created by sogo on 17/09/2017.
  */
 
-$(document).ready(function(){
+$(window).on("load", function(){
     $('#c3-background').fadeOut();
 });
 

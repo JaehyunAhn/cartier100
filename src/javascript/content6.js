@@ -1,6 +1,6 @@
 /* Created by sogo on 17/09/2017.*/
 
-$(document).ready(function(){
+$(window).on("load", function(){
     $('#c6-coverflow').flipster({
         fadeIn: 300,
         style: 'carousel',

@@ -1,7 +1,7 @@
 /**
  * Created by sogo on 17/09/2017.
  */
-$(document).ready(function() {
+$(window).on("load", function(){
     // trigger 가 move top 하는 걸 방지
     $('.trigger').click(function(e) {
         e.preventDefault();

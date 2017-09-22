@@ -2,7 +2,7 @@
  * Created by sogo on 17/09/2017.
  */
 
-$(document).ready(function(){
+$(window).on("load", function(){
     if (navigator.userAgent.match(/(iPod|iPhone)/)) {
         // 에이전트가 아이폰이면 리소스를 넣지 않습니다
     }

@@ -11,7 +11,7 @@ watch_object['default'] = '100년의 시간을 거친 탱크는 과거와 현재
     '정사각형과 직사각형의 오묘한 중간을 선택한 다이얼. 그 좌우로 탱 크의 캐터필라를 이미지 한 브롱카(Brancards)가 큰 그림을 그리는 디자인은 ' +
     '어떤 시대에서도 우아하며 아름답지만, 그 속의 디테일 하나하나는 왕성한 생명력을 지닌 세포처럼 늘 새롭습니다.'
 
-$(document).ready(function() {
+$(window).on("load", function(){
     $(".c1-button").hover(function(){
         // animate dequeue
         if (!$(this).hasClass('animated')) {

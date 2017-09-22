@@ -3,7 +3,7 @@
  */
 var contents_height = [];
 
-$(document).ready(function(){
+$(window).on("load", function(){
     // 콘텐츠 높이 확인하고 contents_height에 모두 삽입
     var contents_array = $('.content');
     contents_array.each(function(){
@@ -13,6 +13,7 @@ $(document).ready(function(){
     });
     contents_height[3] -= 80;
     contents_height[4] += 120;
+
     // 첫 로딩시 위치 확인
     var i = checkMenuPostion();
     $('#navigation_text').text(contents_array[i].attributes['name'].value);
