@@ -51,7 +51,6 @@
 }
 
 .review-item img {
-    width: 80%;
     /* image with drop shadow */
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -116,6 +115,10 @@ and (max-width: 414px)
     .review-item {
         text-align: center;
     }
+    
+    .review-item img {
+        width: 80%;
+    }
 }
 
 /* 모바일 iPad */
@@ -139,10 +142,16 @@ and (min-width: 415px)
     .review-item {
         text-align: center;
     }
+    .review-item img {
+        width: 80%;
+    }
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 768px) {
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px)
+{
     #c2-textbar {
         font-size: 1.2em;
     }
@@ -158,8 +167,21 @@ and (min-width: 415px)
     .review-item p {
         text-align: justify;
     }
-
     .review-item {
         text-align: center;
+    }
+    .review-item img {
+        width: 80%;
+    }
+}
+
+/* 데스크탑보다 더 큰 것 */
+@media screen
+and (min-width: 1024px) {
+    .review-item img {
+        width: 55%;
+    }
+    .review-item {
+        width: 35%;
     }
 }
