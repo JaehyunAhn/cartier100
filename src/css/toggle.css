@@ -10,6 +10,9 @@
 
 .trigger {
     z-index: 2000;
+    width: 8%;
+    padding: 1%;
+    text-align: right;
 }
 
 /* X button */
@@ -133,10 +136,10 @@
 /* 모바일 */
 @media screen and (max-width: 767px) {
     .toggle-wrapper {
-        width: 90%;
-        height: 98%;
-        left: 5%;
-        top: 5%;
+        width: 94%;
+        height: 100%;
+        left: 3%;
+        top: 2%;
     }
 
     .toggle-body {
