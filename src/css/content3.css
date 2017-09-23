@@ -26,6 +26,7 @@
     color: #ad1500;
     justify-content: center;
     z-index: 10;
+    text-shadow: 1px 1px ivory;
 }
 
 .c3-slide {
@@ -62,8 +63,33 @@
     z-index: -4;
 }
 
-/* 모바일 */
-@media screen and (max-width: 767px) {
+/* mobile iPhone */
+@media screen
+and (max-width: 414px) {
+    .quote {
+        width: 10px;
+        height: auto;
+    }
+    #c3-textbox {
+        left: 5%;
+        /* size of textbox */
+        top: 2%;
+        width: 60%;
+        min-width: 180px;
+        line-height: 100%;
+        font-size: 0.8em;
+    }
+    #c3-textbox p {
+        margin: 0;
+        font-size: 0.8em;
+    }
+}
+
+/* 모바일 iPad */
+@media screen
+and (min-width: 415px)
+and (max-width: 767px)
+{
     .quote {
         width: 20px;
         height: auto;
@@ -74,7 +100,6 @@
         top: 0%;
         width: 30%;
         min-width: 180px;
-        text-shadow: 1px 1px ivory;
     }
     #c3-textbox p {
         margin: 0;
@@ -88,16 +113,16 @@ and (min-width: 768px)
 and (max-width: 1024px)
 {
     .quote {
-        width: 60px;
+        width: 40px;
         height: auto;
     }
     #c3-textbox {
         left: 3%;
-        line-height: 200%;
-        font-size: 1em;
+        line-height: 160%;
+        font-size: 0.9em;
         /* size of textbox */
-        top: 9%;
-        width: 45%;
+        top: 3%;
+        width: 55%;
         max-width: 500px;
     }
 
@@ -109,12 +134,16 @@ and (max-width: 1024px)
 /* 더 클때 */
 @media screen
 and (min-width: 1025px) {
+    .quote {
+        width: 40px;
+        height: auto;
+    }
     #c3-textbox {
         left: 11%;
-        line-height: 200%;
-        font-size: 1.4em;
-        top: 6%;
-        width: 35%;
+        line-height: 150%;
+        font-size: 1.2em;
+        top: 4%;
+        width: 40%;
         max-width: 500px;
         z-index: 100;
     }
