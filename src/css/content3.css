@@ -97,8 +97,8 @@ and (max-width: 767px)
     #c3-textbox {
         left: 3%;
         /* size of textbox */
-        top: 0%;
-        width: 30%;
+        top: 2%;
+        width: 40%;
         min-width: 180px;
     }
     #c3-textbox p {
