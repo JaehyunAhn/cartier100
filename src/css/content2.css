@@ -74,7 +74,7 @@
 #content2 .button {
     min-width: 100px;
     height: auto;
-    padding: 1%;
+    padding: 4%;
     background: transparent;
     border: 2px solid white;
     color: white;
@@ -91,6 +91,9 @@
 @media screen
 and (max-width: 414px)
 {
+    #content2 .trigger {
+        width: 100%;
+    }
     #c2-review-wrapper {
         background-image: url('../images/content2/background_mobile.jpg');
     }
@@ -121,6 +124,9 @@ and (max-width: 414px)
 and (max-width: 768px)
 and (min-width: 415px)
 {
+    #content2 .trigger {
+        width: 100%;
+    }
     #c2-review-wrapper {
         background-image: url('../images/content2/background_mobile.jpg');
     }
@@ -150,20 +156,20 @@ and (min-width: 415px)
 and (min-width: 768px)
 and (max-width: 1024px)
 {
+    #content2 .trigger {
+        width: 100%;
+    }
     #c2-review-wrapper {
         background-image: url('../images/content2/background_mobile.jpg');
     }
     #c2-textbar {
         font-size: 1.2em;
     }
-    #content2 .button {
-        width: 10%;
-    }
     .review-item h2 {
-        text-align: justify;
+        text-align: center;
     }
     .review-item h3 {
-        text-align: justify;
+        text-align: center;
     }
     .review-item p {
         text-align: justify;
@@ -179,11 +185,23 @@ and (max-width: 1024px)
 /* 데스크탑보다 더 큰 것 */
 @media screen
 and (min-width: 1024px) {
+    #content2 .trigger {
+        width: 60%;
+    }
     #c2-review-wrapper {
         background-image: url('../images/content2/background_desktop.jpg');
     }
     #c2-textbar {
         font-size: 1.4em;
+    }
+    .review-item h2 {
+        text-align: center;
+    }
+    .review-item h3 {
+        text-align: center;
+    }
+    .review-item p {
+        text-align: justify;
     }
     .review-item img {
         width: 55%;

@@ -10,9 +10,12 @@
 
 .trigger {
     z-index: 2000;
-    width: 15%;
-    padding: 1%;
+    /* button border 제거 */
     text-align: right;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.0em;
 }
 
 /* X button */
