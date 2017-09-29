@@ -2,62 +2,33 @@
 
 #content6 {
     position: relative;
-    overflow: hidden;
     background: black; /* For browsers that do not support gradients */
 }
 
-#c6-coverflow img {
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent) , to(rgba(250, 250, 250, 0.1)));
-}
-
-#content6 .button {
-    width: 10%;
-    min-width: 180px;
+#c6-carousel {
+    overflow-y: visible;
+    overflow-x: scroll;
+    width: 100%;
     height: auto;
-    color: white;
-    text-align: center;
-    margin: auto;
+
+    white-space:nowrap;
 }
 
-#content6 .button:hover {
-    border: 2px solid #ad1500;
-    color: #ad1500;
+#c6-carousel .slide {
+    display: inline-block;
 }
 
-.c6-coverflow-card {
-    position: relative;
-    color: lightgoldenrodyellow;
-}
-
-.c6-card-text {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    padding: 3%;
+#c6-carousel img {
+    width: 100%;
+    height: auto;
 }
 
 /* 모바일 */
 @media screen and (max-width: 768px) {
-    #content6 .button {
-        padding: 2%;
-        border: 1px solid white;
-    }
-    .c6-coverflow-card {
-        width: 300px;
-        height: auto;
-    }
+
 }
 
 /* 데스크탑 */
 @media screen and (min-width: 768px) {
-    #content6 .button {
-        padding: 1%;
-        border: 2px solid white;
-    }
-    .c6-coverflow-card {
-        width: 500px;
-        height: auto;
-    }
+
 }

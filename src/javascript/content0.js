@@ -5,11 +5,11 @@
 $(window).on("load", function(){
     var video_source = document.querySelector('video');
     var video_storage = [
-        './movie/tank100_1.mp4'
+        './movie/tank100_1.mp4',
     ];
     var active_video_url = video_storage[Math.round(Math.random()*(video_storage.length -1))];
 
-    if(video_source.canPlayType('video/mp4')) {
+    if(video_source.canPlayType('video/mp4;')) {
         video_source.setAttribute('src', active_video_url);
     }
 
