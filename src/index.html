@@ -51,7 +51,7 @@
 <script>
     // for close button
     function close_window() {
-        self.opener = self;
+        window.open(location, '_self', '');
         window.close();
     }
 </script>
