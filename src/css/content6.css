@@ -6,7 +6,7 @@
 }
 
 #c6-carousel {
-    overflow-y: visible;
+    overflow-y: hidden;
     overflow-x: scroll;
     width: 100%;
     height: auto;
@@ -14,21 +14,41 @@
     white-space:nowrap;
 }
 
+#swipe_hand {
+    top: 60%;
+    left: 5%;
+    position: absolute;
+    /* drop shadow on image */
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
 #c6-carousel .slide {
     display: inline-block;
 }
 
-#c6-carousel img {
-    width: 100%;
-    height: auto;
+/* 모바일 */
+@media screen and (max-width: 767px) {
+    #c6-carousel .slide img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-/* 모바일 */
-@media screen and (max-width: 768px) {
-
+/* iPad pro */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    #c6-carousel .slide img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 1025px) {
+    #c6-carousel .slide img {
+        width: 70%;
+        height: auto;
+    }
 }
