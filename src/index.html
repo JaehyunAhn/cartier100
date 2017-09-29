@@ -48,13 +48,27 @@
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
 </head>
 <body>
+<script>
+    // for close button
+    function close_window() {
+        self.opener = self;
+        window.close();
+    }
+</script>
 <div id="top" class="cartier-carpet" >
-    <a href="#" target="_blank">
-        <img id='logo-cartier' class="logo" src="./images/top/logo-car01.png">
-    </a>
-    <a href="#" target="_blank">
-        <img id='logo-tf' class="logo" src="./images/top/logo-timeforum01.png">
-    </a>
+    <div id="top-left">
+        <a href="#" target="_blank">
+            <img id='logo-cartier' class="logo" src="./images/top/logo-car01.png">
+        </a>
+    </div>
+    <div id="top-right">
+        <a href="#" target="_blank">
+            <img id='logo-tf' class="logo" src="./images/top/logo-timeforum01.png">
+        </a>
+        <button type="button" class="" meta="" onclick="javascript:close_window();" style="">
+            <img src="./images/meta/x_btn.png" width="14.5em" height="14.5em" style="vertical-align: middle">
+        </button>
+    </div>
 </div>
 <div id="menu">
     <div id="menu-mobile">
