@@ -77,20 +77,40 @@
 }
 
 /* 모바일 */
-@media screen and (max-width: 768px) {
+@media screen
+and (max-width: 414px)
+{
     .c1-button {
         padding: 3px;
         font-size: 0.7em;
         font-weight: bold;
     }
     #c1-bottom {
-        font-size: 0.9em;
-        height: 20%;
+        font-size: 0.7em;
+        line-height: 130%;
+        max-height: 23%;
+    }
+}
+
+/* pads */
+@media screen
+and (min-width: 415px)
+and (max-width: 768px)
+{
+    .c1-button {
+        padding: 3px;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+    #c1-bottom {
+        font-size: 1.2em;
+        line-height: 130%;
+        max-height: 23%;
     }
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     #content1 {
         margin-bottom: -10px;
     }
@@ -101,6 +121,6 @@
     }
     #c1-bottom {
         font-size: 1.2em;
-        height: 20%;
+        /*height: 15%;*/
     }
 }

@@ -65,11 +65,46 @@
     color: #ad1500;
 }
 
-/* 모바일 */
-@media screen and (max-width: 768px) {
+/* 모바일 iphone 5*/
+@media screen
+and (max-width: 320px) {
+    #c0-bottom {
+        font-size: 0.7em;
+        line-height: 140%;
+        height: 63%;
+    }
+}
+
+/* mobile iphone 6 */
+@media screen
+and (min-width: 321px)
+and (max-width: 375px) {
+    #c0-bottom {
+        font-size: 0.7em;
+        line-height: 140%;
+        /*height: 46%;*/
+    }
+}
+
+/* mobile iphone 6+ */
+@media screen
+and (min-width: 376px)
+and (max-width: 414px) {
+    #c0-bottom {
+        font-size: 0.8em;
+        line-height: 130%;
+        /*height: 45%;*/
+    }
+}
+
+/* pads */
+@media screen
+and (min-width: 415px)
+and (max-width: 767px) {
     #c0-bottom {
         font-size: 0.9em;
-        height: 30%;
+        line-height: 140%;
+        /*height: 30%;*/
     }
 }
 
