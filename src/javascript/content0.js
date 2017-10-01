@@ -6,7 +6,22 @@ $(window).on("load", function(){
     var video_source = document.querySelector('video');
     var video_storage = [
         './movie/tank100_1.mp4',
+        './movie/tank100_2.mp4',
+        './movie/tank100_3.mp4'
     ];
+    // check browser is chrome
+    $.browser.chrome = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
+    if($.browser.chrome){
+      video_storage = [
+          './movie/tank100_1.mp4'
+      ];
+    }
+    else {
+        video_storage = [
+        './movie/tank100_2.mp4',
+        './movie/tank100_3.mp4'
+        ];
+    }
     var active_video_url = video_storage[Math.round(Math.random()*(video_storage.length -1))];
 
     if(video_source.canPlayType('video/mp4;')) {
