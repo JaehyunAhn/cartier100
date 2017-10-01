@@ -9,19 +9,21 @@ $(window).on("load", function(){
         './movie/tank100_2.mp4',
         './movie/tank100_3.mp4'
     ];
-    // check browser is chrome
-    $.browser.chrome = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
-    if($.browser.chrome){
-      video_storage = [
-          './movie/tank100_1.mp4'
-      ];
-    }
-    else {
+
+    // check browser is chrome & safari;
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)  {
+        //i.e. apply safari class via jquery
         video_storage = [
         './movie/tank100_2.mp4',
         './movie/tank100_3.mp4'
         ];
     }
+    else {
+        video_storage = [
+          './movie/tank100_1.mp4'
+      ];
+    }
+
     var active_video_url = video_storage[Math.round(Math.random()*(video_storage.length -1))];
 
     if(video_source.canPlayType('video/mp4;')) {
