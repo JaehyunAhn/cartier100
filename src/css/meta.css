@@ -110,7 +110,7 @@ a {
 @media screen
 and (max-width: 320px) {
     .swiper-button-next, .swiper-button-prev {
-        top: 70%;
+        top: 62%;
     }
 }
 
@@ -119,7 +119,7 @@ and (max-width: 320px) {
 and (min-width: 321px)
 and (max-width: 375px) {
     .swiper-button-next, .swiper-button-prev {
-        top: 68%;
+        top: 59%;
     }
 }
 
@@ -128,7 +128,7 @@ and (max-width: 375px) {
 and (min-width: 376px)
 and (max-width: 414px) {
     .swiper-button-next, .swiper-button-prev {
-        top: 68%;
+        top: 59%;
     }
 }
 
@@ -137,7 +137,7 @@ and (max-width: 414px) {
 and (min-width: 415px)
 and (max-width: 767px) {
     .swiper-button-next, .swiper-button-prev {
-        top: 68%;
+        top: 55%;
     }
 }
 
@@ -146,7 +146,7 @@ and (max-width: 767px) {
 and (min-width: 768px)
 and (max-width: 1024px) {
     .swiper-button-next, .swiper-button-prev {
-        top: 59%;
+        top: 55%;
     }
 }
 

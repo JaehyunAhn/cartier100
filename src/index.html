@@ -399,14 +399,25 @@
         <!-- Swiper JS -->
         <!-- Initialize Swiper -->
         <script>
-            var swiper6 = new Swiper('.swiper-container-6', {
-                lazyLoading: true,
-                lazyLoadingInPrevNext: true,
-                autoplay: 4000,
-                nextButton: '.swiper-button-6-next',
-                prevButton: '.swiper-button-6-prev',
-                slidesPerView:2
-            });
+            var swiper6 = null;
+            if ($(window).width() < 1024) {
+                swiper6 = new Swiper('.swiper-container-6', {
+                    lazyLoading: true,
+                    lazyLoadingInPrevNext: true,
+                    nextButton: '.swiper-button-6-next',
+                    prevButton: '.swiper-button-6-prev',
+                    slidesPerView:1
+                });
+            }
+            else {
+                swiper6 = new Swiper('.swiper-container-6', {
+                    lazyLoading: true,
+                    lazyLoadingInPrevNext: true,
+                    nextButton: '.swiper-button-6-next',
+                    prevButton: '.swiper-button-6-prev',
+                    slidesPerView:2
+                });
+            }
         </script>
     </div>
 </div>
