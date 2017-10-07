@@ -38,7 +38,6 @@
     <link rel="stylesheet" type="text/css" href="./css/content4.css">
     <link rel="stylesheet" type="text/css" href="./css/content5.css">
     <link rel="stylesheet" type="text/css" href="./css/content6.css">
-    <script type="text/javascript" src="./javascript/content6.js"></script>
     <!-- 768px for iPhone & iPad-->
     <link rel="stylesheet" type="text/css" href="./css/meta.css">
     <link rel="stylesheet" type="text/css" href="./css/toggle.css">
@@ -267,7 +266,7 @@
         </div>
         <!-- Swiper SLIDE STARTS IN THIS SIDE! -->
         <div id="c4-wrapper">
-            <div class="swiper-container">
+            <div class="swiper-container-4">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img class="swiper-bg" src="./images/content4/1.jpg">
@@ -301,8 +300,8 @@
                     </div>
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-button-next swiper-button-white"></div>
-                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white swiper-button-4-next"></div>
+                <div class="swiper-button-prev swiper-button-white swiper-button-4-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
@@ -310,15 +309,15 @@
         <!-- Swiper JS -->
         <!-- Initialize Swiper -->
         <script>
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-container-4', {
                 pagination: '.swiper-pagination',
                 lazyLoading: true,
                 lazyLoadingInPrevNext: true,
                 autoplay: 4000,
                 paginationClickable: false,
                 loop: true,
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev'
+                nextButton: '.swiper-button-4-next',
+                prevButton: '.swiper-button-4-prev'
             });
         </script>
     </div>
@@ -359,52 +358,56 @@
             <p style="font-family: DidotRegular; color: #a30001; margin: 0; padding:10px; ">HISTORY OF TANK</p>
         </div>
         <div id="c6-carousel">
-            <div id="swipe_hand">
-                <img src="./images/content6/swipe_right_white.png" width="100px" height="100px">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/1.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/2.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/3.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/4.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/5.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/6.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/7.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/8.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/9.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/10.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/11.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/12.jpg">
-            </div>
-            <div class="slide">
-                <img src="./images/content6/13.jpg">
-            </div>
-            <div style="background-color:black; height:55px; width:100%; margin-bottom: -1px;">
-
+            <div class="swiper-container-6">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/3.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/4.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/5.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/6.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/7.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/8.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/9.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-bg" src="./images/content6/10.jpg">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-button-next swiper-button-white swiper-button-6-next"></div>
+                <div class="swiper-button-prev swiper-button-white swiper-button-6-prev"></div>
             </div>
         </div>
+        <!-- Swiper JS -->
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper6 = new Swiper('.swiper-container-6', {
+                lazyLoading: true,
+                lazyLoadingInPrevNext: true,
+                autoplay: 4000,
+                nextButton: '.swiper-button-6-next',
+                prevButton: '.swiper-button-6-prev',
+                slidesPerView:2
+            });
+        </script>
     </div>
 </div>
 <!-- toggle section -->

@@ -7,7 +7,6 @@
 }
 
 #c5-wrapper {
-    top: 2px;
     position: relative;
     width:100%;
     background: url('../images/content5/dot.png') repeat;
@@ -139,6 +138,7 @@
 /* 모바일 */
 @media screen and (max-width: 768px) {
     #c5-wrapper {
+        top: 6px;
         height: 250px;
     }
     #c5-text {
@@ -159,6 +159,7 @@
         font-size: 1.2em;
     }
     #c5-wrapper {
+        top: 10px;
         height: 600px;
     }
     #content5 .button {

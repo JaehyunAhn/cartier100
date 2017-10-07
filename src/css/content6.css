@@ -7,22 +7,13 @@
 
 #c6-carousel {
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: hidden;
     width: 100%;
     height: auto;
     white-space:nowrap;
 
     /* mobile acceleration */
     -webkit-overflow-scrolling: touch;
-}
-
-#swipe_hand {
-    top: 60%;
-    left: 5%;
-    position: absolute;
-    /* drop shadow on image */
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
 }
 
 #c6-carousel .slide {

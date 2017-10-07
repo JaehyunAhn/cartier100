@@ -25,8 +25,7 @@ $(window).on("load", function(){
         //console.log(contents_array[i].attributes['name'].value, i);
         // i == 3 탱크의 케이스 함수 실행
         flewAttributes(i);
-        // i == 6, blink hand
-        blinkHand(i);
+
         $('#navigation_text').text(contents_array[i].attributes['name'].value);
     });
     // 데스크탑용 햄버거
@@ -64,21 +63,24 @@ function checkMenuPostion() {
 }
 
 function menuButtonClicked(position) {
+    var i = 0;
+    var content = 0;
+
     if (position == 'left') {
-        var i = checkMenuPostion()
+        i = checkMenuPostion();
         if (i != 0) {
             i -= 1;
             //console.log(i);
-            var content = $('#content' + i).offset();
+            content = $('#content' + i).offset();
             $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
     }
     else if (position == 'right') {
-        var i = checkMenuPostion()
+        i = checkMenuPostion();
         if (i + 1 != contents_height.length) {
             i += 1;
             //console.log(i);
-            var content = $('#content' + i).offset();
+            content = $('#content' + i).offset();
             $('html, body').animate({scrollTop: contents_height[i]+82}, 300)
         }
     }

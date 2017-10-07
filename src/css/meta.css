@@ -103,3 +103,57 @@ a {
 .button {
     z-index: 1000;
 }
+
+/* detail changes */
+
+/* 모바일 iphone 5*/
+@media screen
+and (max-width: 320px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 70%;
+    }
+}
+
+/* mobile iphone 6 */
+@media screen
+and (min-width: 321px)
+and (max-width: 375px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 68%;
+    }
+}
+
+/* mobile iphone 6+ */
+@media screen
+and (min-width: 376px)
+and (max-width: 414px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 68%;
+    }
+}
+
+/* pads */
+@media screen
+and (min-width: 415px)
+and (max-width: 767px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 68%;
+    }
+}
+
+/* iPad mini to Pro */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 59%;
+    }
+}
+
+/* desktops */
+@media screen
+and (min-width: 1025px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 55%;
+    }
+}
