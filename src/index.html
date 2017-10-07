@@ -129,8 +129,8 @@
     <!-- VIDEO SECTION -->
     <div class="content" id="content0" name="탱크 워치, 살아 숨쉬는 100년의 여정">
         <div id="video-wrapper">
-            <video autoplay muted poster="./movie/tank100-01.jpeg" loop webkit-playsinline playsinline>
-                <source src="./movie/tank100_1.mp4" type="video/mp4">
+            <video autoplay muted poster="./movie/video_load.jpeg" src="./movie/tank100_1.mp4"
+                   loop webkit-playsinline playsinline type="video/mp4">
                  I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
             </video>
             <div id="c0-bottom">
@@ -301,6 +301,8 @@
                     </div>
                 </div>
                 <!-- Add Pagination -->
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
@@ -310,8 +312,13 @@
         <script>
             var swiper = new Swiper('.swiper-container', {
                 pagination: '.swiper-pagination',
+                lazyLoading: true,
+                lazyLoadingInPrevNext: true,
                 autoplay: 4000,
-                paginationClickable: false
+                paginationClickable: false,
+                loop: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev'
             });
         </script>
     </div>
