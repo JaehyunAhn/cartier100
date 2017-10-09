@@ -133,7 +133,8 @@ and (max-width: 1024px)
 
 /* 더 클때 */
 @media screen
-and (min-width: 1025px) {
+and (min-width: 1025px)
+and (max-width: 1440px) {
     .quote {
         width: 40px;
         height: auto;
@@ -145,6 +146,24 @@ and (min-width: 1025px) {
         top: 4%;
         width: 40%;
         max-width: 500px;
+        z-index: 100;
+    }
+}
+
+/* desktop huge */
+@media screen
+and (min-width: 1441px) {
+    .quote {
+        width: 40px;
+        height: auto;
+    }
+    #c3-textbox {
+        left: 11%;
+        line-height: 150%;
+        font-size: 1.8em;
+        top: 13%;
+        width: 40%;
+        max-width: 700px;
         z-index: 100;
     }
 }

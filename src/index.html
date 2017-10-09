@@ -409,6 +409,15 @@
                     slidesPerView:1
                 });
             }
+            else if($(window).width() > 1680) {
+                swiper6 = new Swiper('.swiper-container-6', {
+                    lazyLoading: true,
+                    lazyLoadingInPrevNext: true,
+                    nextButton: '.swiper-button-6-next',
+                    prevButton: '.swiper-button-6-prev',
+                    slidesPerView:3
+                });
+            }
             else {
                 swiper6 = new Swiper('.swiper-container-6', {
                     lazyLoading: true,
